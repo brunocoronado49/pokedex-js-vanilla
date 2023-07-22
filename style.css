@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(24, 23, 29);
+    color: aliceblue;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#pokedex {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+#pokemon {
+    display: flex;
+}
+
+img {
+    width: 200px;
+}
